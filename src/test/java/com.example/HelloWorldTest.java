@@ -1,9 +1,9 @@
 package com.example;
 
-import org.junit.Test;
-import static org.junit.Assert.*;
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class HelloWorldTest {
+class HelloWorldTest {
     @Test
     public void testSayHello() {
         HelloWorld helloWorld = new HelloWorld();
